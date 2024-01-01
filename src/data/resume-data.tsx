@@ -20,28 +20,28 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Shaukat Ibrahim",
+  initials: "SI",
+  location: "New York City, NYC, USA",
+  locationLink: "https://www.google.com/maps/place/New+York,+NY/@40.6973709,-74.1444871,11z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Investment Banking Analyst, with a passion for restructuring and M&A.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://sibrahim.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "shaukat.ibrahim@sibrahim.io",
+    tel: "+646-812-7347",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/sibras4",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/shaukatibrahim/",
         icon: LinkedInIcon,
       },
       {
@@ -53,18 +53,19 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Furman University",
+      link: "https://www.furman.edu",
+      degree: "Bachelor's Degree in Information Systems, with a concentration in Finance and a double major in Computer Science in Philosophy",
+      start: "2020",
+      end: "2024",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "SMBC Nikko Securities America, Inc.",
+      link: "https://www.smbcnikko.com",
+      badges: ["Hybrid"],
+      title: "Investment Banking Analyst Intern",
       logo: ParabolLogo,
       start: "2021",
       end: "2024",
@@ -72,9 +73,9 @@ export const RESUME_DATA = {
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
+      company: "The University Financing Foundation",
+      link: "https://tuff.come",
+      badges: [],
       title: "Lead Android Developer → Full Stack Developer",
       logo: ClevertechLogo,
       start: "2015",
